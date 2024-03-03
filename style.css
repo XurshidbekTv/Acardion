@@ -24,15 +24,15 @@ body{
     align-self: self-start;
     padding: 1% 10%;
     border: none;
-    background-color:rgb(33, 5, 5);
-    color: white;
+    /* background-color:rgb(33, 5, 5); */
+    color: black;
     font-weight: bold;
     border-radius: 7px;
     transition: 2s;
 }
 .button1:hover, .button2:hover, .button3:hover{
-    transform: scale(1.2);
-    transform: translateX(60px);
+    transform: scale(1.1);
+    background-color:gray;
 }
 #img1{
     background: url(image/img1.jpg);
@@ -60,5 +60,16 @@ body{
 }
 #img1:hover, #img2:hover, #img3:hover{
     transform: translateY(2%);
+}
+span{
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-225deg);
+}
+.ferrari{
+    display: flex;
+    justify-content: space-around;
 }
 
